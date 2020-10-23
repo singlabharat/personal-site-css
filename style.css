@@ -1,0 +1,157 @@
+body {
+	text-align: center;
+	margin: 0;
+	font-family: 'Merriweather', serif;
+}
+
+h1 {
+	color: #66bfbf;
+	font-family: 'Sacramento', cursive;
+	font-size: 6rem;
+	margin: 0;
+}
+
+h2 {
+	color: #66bfbf;
+	font-family: 'Monsterrat', sans-serif;
+	font-size: xx-large;
+	font-weight: normal;
+	margin-top: 0.5rem;
+}
+
+h3 {
+	color: #11999e;
+	font-family: 'Monsterrat', sans-serif;
+	font-weight: normal;
+}
+
+p {
+	color: #40514e;
+	font-size: 0.84rem;
+}
+
+span {
+	text-decoration: underline;
+}
+
+hr {
+	border: none;
+	border-top: dotted;
+	border-color: lightgrey;
+	border-width: 11px;
+	width: 8.4%;
+	margin: 100px auto;
+}
+
+.top-container {
+	background-color: #eaf6f6;
+	padding-top: 5rem;
+	position: relative;
+}
+
+.middle-container {
+	padding: 3rem;
+}
+
+.bottom-container {
+	background-color: #66bfbf;
+	padding-top: 1.25rem;
+	padding-bottom: 0.84rem;
+}
+
+.top-cloud {
+	position: absolute;
+	right: 250px;
+	top: 25px;
+}
+
+.bottom-cloud {
+	position: absolute;
+	left: 300px;
+	bottom: 350px;
+}
+
+.mountain-img {
+	margin-top: 2rem;
+}
+
+.my-img {
+	height: 250px;
+	width: 250px;
+	margin-bottom: 1.5rem;
+}
+
+/* .hello {
+	margin: 2rem auto 3rem auto;
+} */
+
+.description {
+	width: 40%;
+	margin: auto;
+}
+
+.code-img,
+.billiards-table-img,
+.tt-img {
+	height: 180px;
+	width: 180px;
+}
+
+.code-img,
+.tt-img {
+	float: left;
+	margin-right: 2rem;
+}
+
+.billiards-table-img {
+	float: right;
+	margin-left: 2rem;
+}
+
+.hobbies {
+	width: 60%;
+	margin: auto;
+}
+
+.programming,
+.billiards,
+.tt {
+	text-align: left;
+	margin: 4rem auto;
+}
+
+button {
+	background-color: #1eba8e;
+	border: none;
+	border-radius: 7px;
+	color: #eaf6f6;
+	padding: 0.5rem 0.75rem;
+	font-size: 0.84rem;
+	font-weight: bold;
+	margin-top: 1rem;
+	transition: transform 0.1s;
+}
+
+button:hover {
+	background-color: #28f1b8;
+	color: #ffffff;
+	transform: scale(1.07);
+	cursor: pointer;
+}
+
+.footer-link {
+	color: #11999e;
+	/* margin-top: 2rem;
+   margin-bottom: 1.5rem; */
+	margin: 1.8rem;
+	text-decoration: none;
+	font-family: 'Monsterrat', sans-serif;
+	font-weight: bold;
+}
+
+#copyright {
+	color: #eaf6f6;
+	font-size: 0.84rem;
+	/* font-family: 'Monsterrat', sans-serif; */
+	margin: 1.42rem auto 0 auto;
+}
