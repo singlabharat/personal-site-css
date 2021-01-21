@@ -149,6 +149,10 @@ button:hover {
 	font-weight: bold;
 }
 
+.footer-link:hover {
+	color: #06b2b8;
+}
+
 #copyright {
 	color: #eaf6f6;
 	font-size: 0.84rem;
